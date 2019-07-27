@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'startup_namer/StartupNamer.dart';
 import 'test_drive/TestDrive.dart';
 
 void main() => runApp(MyApp());
@@ -11,9 +12,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TestDrive(),
+      //home: TestDrive(),
+      home: StartupNamer(),
       
-      //home: StartupNamer(),home: ScaffoldDemo(),home: AppbarDemo(),home: BottomNavigationBarDemo(),home: TabBarDemo(),home: DrawerDemo(),home: SliverAppBarDemo(),home: RaisedButtonDemo(),home: FloatingActionButtonDemo(),home: FlatButtonDemo(),home: IconButtonDemo(),home: DropdownButtonDemo(),home: PopupMenuButtonDemo(),home: TextFieldDemo(),home: CheckboxDemo(),home: RadioDemo(),home: SwitchDemo(),home: SliderDemo(),home: DatePickerDemo(),home: TimePickerDemo(),home: SimpleDialogDemo(),home: AlertDialogDemo(),home: BottomSheetDemo(),home: ExpansionPanelDemo(),home: SnackBarDemo(),home: ImageDemo(),home: IconDemo(),home: ChipDemo(),home: TooltipDemo(),home: DataTableDemo(),home: CardDemo(),home: LinearProgressIndicatorDemo(),home: CircularProgressIndicatorDemo(),home: GridViewDemo(),home: ListTileDemo(),home: StepperDemo(),home: DividerDemo(),
+      //home: ScaffoldDemo(),home: AppbarDemo(),home: BottomNavigationBarDemo(),home: TabBarDemo(),home: DrawerDemo(),home: SliverAppBarDemo(),home: RaisedButtonDemo(),home: FloatingActionButtonDemo(),home: FlatButtonDemo(),home: IconButtonDemo(),home: DropdownButtonDemo(),home: PopupMenuButtonDemo(),home: TextFieldDemo(),home: CheckboxDemo(),home: RadioDemo(),home: SwitchDemo(),home: SliderDemo(),home: DatePickerDemo(),home: TimePickerDemo(),home: SimpleDialogDemo(),home: AlertDialogDemo(),home: BottomSheetDemo(),home: ExpansionPanelDemo(),home: SnackBarDemo(),home: ImageDemo(),home: IconDemo(),home: ChipDemo(),home: TooltipDemo(),home: DataTableDemo(),home: CardDemo(),home: LinearProgressIndicatorDemo(),home: CircularProgressIndicatorDemo(),home: GridViewDemo(),home: ListTileDemo(),home: StepperDemo(),home: DividerDemo(),
     );
   }
 }
