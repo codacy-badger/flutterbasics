@@ -1,4 +1,7 @@
 ## Flutter Tutorial
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0c47ecfbabed4059b255009cb870984a)](https://app.codacy.com/app/wasulabenjamin/flutterbasics?utm_source=github.com&utm_medium=referral&utm_content=wasulabenjamin/flutterbasics&utm_campaign=Badge_Grade_Dashboard)
+
 Flutter is a mobile app SDK that allows you to write an app in one codebase and compile to both 
 Android and iOS. Firebase is a mobile development platform that provides a back end to support your 
 apps, and Cloud Firestore is a NoSQL document database where you can store, sync, and query data for 
